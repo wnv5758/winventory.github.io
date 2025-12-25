@@ -9,45 +9,63 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #000814;
-      color: #ffffff;
+      background: radial-gradient(circle at top, #001d3d, #000814);
+      color: white;
       text-align: center;
       padding: 30px;
     }
 
     h1 {
-      font-size: 36px;
-      color: #00eaff;
+      font-size: 44px;
+      background: linear-gradient(90deg, #00eaff, #7cffcb, #ff6ec7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 18px;
+      margin-bottom: 25px;
+      color: #cce7ff;
+    }
+
+    .box {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 25px;
     }
 
     p {
       font-size: 16px;
-      margin-bottom: 30px;
+      line-height: 1.6;
     }
 
     .btn {
       display: block;
-      max-width: 320px;
+      max-width: 330px;
       margin: 15px auto;
-      padding: 15px;
-      background-color: #0077ff;
+      padding: 16px;
+      background: linear-gradient(135deg, #0077ff, #00eaff);
       color: white;
       text-decoration: none;
       font-size: 18px;
-      border-radius: 10px;
+      font-weight: bold;
+      border-radius: 14px;
     }
 
     .btn:hover {
-      background-color: #0056b3;
+      transform: scale(1.05);
     }
 
     .wa {
-      background-color: #25D366;
+      background: linear-gradient(135deg, #25D366, #1ebe5d);
     }
 
-    .wa:hover {
-      background-color: #1ebe5d;
+    .cta-text {
+      font-size: 14px;
+      color: #ffd166;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -55,19 +73,41 @@
 <body>
 
   <h1>Winventory</h1>
+  <div class="tagline">
+    Mainan seru • Kreatif • Bikin nagih 🎮✨
+  </div>
 
-  <p>
-    Konten mainan yang seru sekaligus melatih kreativitas dan imajinasi 🎮✨<br>
-    Cocok buat anak-anak dan orang dewasa yang masih suka main 😉
-  </p>
+  <div class="box">
+    <p>
+      🔥 BOSAN SCROLL KONTEN YANG ITU-ITU AJA?<br><br>
+      Di <b>Winventory</b>, kamu bakal nemuin<br>
+      <b>konten mainan unik</b> yang bikin:<br><br>
+      ✅ Anak jadi lebih kreatif<br>
+      ✅ Dewasa balik happy kayak bocil 😄<br>
+      ✅ Belajar sambil main, TANPA kerasa belajar!
+    </p>
+  </div>
+
+  <div class="box">
+    <p>
+      ⚠️ PERINGATAN ⚠️<br>
+      Sekali nonton, bisa ketagihan.<br>
+      Banyak yang awalnya “cuma lihat”…<br>
+      eh akhirnya FOLLOW 🤭
+    </p>
+  </div>
 
   <a class="btn" href="https://www.tiktok.com/@wininventory" target="_blank">
-    🎥 Lihat Konten Serunya di TikTok
+    👉 LIHAT KONTEN SERUNYA SEKARANG
   </a>
 
   <a class="btn wa" href="https://wa.me/628122844655" target="_blank">
-    💬 Chat WhatsApp Sekarang
+    💬 CHAT WHATSAPP SEKARANG
   </a>
+
+  <div class="cta-text">
+    ⏰ Jangan nunggu besok, hiburan & inspirasi ada di sini!
+  </div>
 
 </body>
 </html>
